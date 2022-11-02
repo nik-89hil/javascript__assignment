@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.head{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    
+}
+.head > h1{
+    color: gray;
+    font-size: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: underline white;
+
+}
+span{
+    text-decoration: underline black;
+    color: white;
+}
+
+input{
+    width: 60%;
+    height: 6vh;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding-left: 8px;
+    font-size: 17px;
+}
+#add{
+    width: 8vw ;
+    height: 6vh;
+    font-size: 19px;
+    color: black;
+    background-color: gray;
+    border: 2px solid gray;
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    height: 15px;
+    width:15px;
+}
+
+.advertise{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 60vh;
+    width: 19%;
+    border: 2px solid gray;
+    float: left;
+    background-color: rgb(237, 234, 234);
+}
+
+.container{
+    margin-top: 50px;
+    margin-right: 170px;
+    height: 60vh;
+    width: 60%;
+    border: 6px solid gray;
+    border-radius: 5px;
+    float:right;
+    position: relative;
+    overflow: scroll;
+    background-color: black;
+}
+.advertise > h3{
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 25px 0px;
+    border: 2px solid gray;
+    background-color: gray;
+}
+.advertise >div{
+    height: 8vh;
+    width: 16vw;
+    margin: 30px 17px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+#at3{
+    height: 25vh;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    padding: 45px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container >h3{
+    margin-top: 0;
+    border: 4px solid gray;
+    padding: 10px 0px;
+    font-family: cursive;
+    color: red;
+    position: relative;
+    text-align: center;
+}
+.container > .list{
+    position: absolute;
+    left: 60px;
+    top: 90px;
+}
+ul >li{
+    padding: 10px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 17px;
+    
+
+}
+
+.recyclebin{
+    visibility: hidden;
+}
+
+#dlt_id{
+    width: 6vw;
+    height: 4vh;
+    margin: 0px 8px;
+    background-color:red;
+    opacity: 0.7;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+
+
+
+
+
