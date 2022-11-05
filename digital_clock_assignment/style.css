@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(202, 90, 112);
+    box-sizing: border-box;
+}
+
+#Time_container{
+    display: flex;
+    height: 5%;
+    width: 44%;
+    background-color: white;
+    margin: 1rem 22rem 2rem 22rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 5px yellow;
+    color: rgb(161, 52, 70);
+}
+
+span{
+    color: red;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: rgb(224, 168, 225);
+    padding: 5px;
+    border-radius: 20px;
+}
+#Time_container > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#sess{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    top: 55%;
+    left: 47%;
+    margin: 18px 5px;
+    border-radius: 30px;
+    box-shadow: 4px 3px yellow;
+}
+
+#session{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    height: 5px;
+    width: 5px; 
+    font-size: 22px;
+    font-family: cursive;
+    background-color: white;
+}
+h2{
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+    margin: 5rem 32rem;
+}
+
+#clock{
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+    background-color: rgb(202, 90, 112);
+}
+
+
+
+
+
+
+
+
+
+
